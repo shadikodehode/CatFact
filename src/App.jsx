@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { FactContainer } from "./Components/FactContainer.jsx"
 
 function App() {
   
 
   return (
     <>
-     
+     <FactContainer />
     </>
   )
 }
