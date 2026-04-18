@@ -1,13 +1,6 @@
 import { FactContainer } from "./Components/FactContainer.jsx"
 
 function App() {
-  
-
-  return (
-    <>
-     <FactContainer />
-    </>
-  )
+  return <FactContainer />
 }
-
 export default App
