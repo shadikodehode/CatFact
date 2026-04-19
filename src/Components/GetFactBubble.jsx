@@ -11,7 +11,7 @@ export const GetFactBubble = ({ onClick, fact, error, loading }) => {
         {error && <p className="text-red-600">{error}</p>}
         {fact && <p className="text-amber-950 font-bold text-lg text-left">{fact}</p>}
         {!loading && !error && !fact && 
-        <p className="text-amber-900 font-bold text-lg">
+        <p className="text-amber-950 font-bold text-lg">
           Let me tell you sumthin'
         </p> }
       </div>

@@ -13,6 +13,7 @@ export const LoadingSpinner = () => {
         src={oiia} 
         alt="Loading"
         className="w-15 lg:w-24" 
+        draggable="false"
       />
     </div>
   );

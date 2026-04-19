@@ -10,19 +10,19 @@ export const FactContainer = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4 lg:gap-10 pt-10 lg:pt-20 bg-zing-100 min-w-0">
-        <div className="self-start ml-5 lg:ml-40 mt-0 lg:mt-10 mr-5 lg:mr-0 shrink-0">
+      <div className="flex flex-col items-center gap-4 lg:gap-20 pt-10 lg:pt-20 bg-zing-100 min-w-0">
+        <div className="ml-5 lg:-ml-200 mt-0 lg:mt-10 mr-5 lg:mr-0 shrink-0">
 
           <CatFactTitle />
         
         </div>
 
-        <div className="flex flex-col lg:flex-row items-start lg:justify-center ml-5 lg:ml-0 mt-10 lg:mt-0">
+        <div className="flex flex-col lg:flex-row items-start ml-5 lg:ml-0 lg:mr-40 mt-10 lg:mt-0">
           <div className="relative w-fit">
         
             <CatImage />
 
-            <div className="absolute left-23 bottom-50 lg:bottom-100 lg:left-50">
+            <div className="absolute left-23 bottom-50 lg:bottom-102 lg:left-50">
               {loading && <LoadingSpinner />}
             </div>
 

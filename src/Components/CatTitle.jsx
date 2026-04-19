@@ -6,6 +6,7 @@ export const CatFactTitle = () => {
       src={CatFactClean} 
       alt="Cat title"
       className=" w-xl object-cover" 
+      draggable="false"
     />
   )
 }
