@@ -26,7 +26,7 @@ export const FactContainer = () => {
               {loading && <LoadingSpinner />}
             </div>
 
-            <div className="absolute top-20 left-40 min-w-40 sm:min-w-90 lg:top-35 lg:left-80 ml-0 lg:ml-4 lg:min-w-96 lg:max-w-2xl lg:mr-40 ">
+            <div className="absolute top-20 left-40 min-w-40 sm:min-w-90 lg:top-35 lg:left-80 ml-0 lg:ml-4 lg:min-w-96 lg:max-w-2xl lg:mr-40">
         
               <GetFactBubble 
                 onClick={fetchFact}

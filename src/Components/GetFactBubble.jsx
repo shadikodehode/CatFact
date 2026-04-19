@@ -9,7 +9,7 @@ export const GetFactBubble = ({ onClick, fact, error, loading }) => {
           <div className="flex justify-center display:none w-20 h-20"></div>
         )}
         {error && <p className="text-red-600">{error}</p>}
-        {fact && <p className="text-amber-900 font-bold text-lg">{fact}</p>}
+        {fact && <p className="text-amber-950 font-bold text-lg text-left">{fact}</p>}
         {!loading && !error && !fact && 
         <p className="text-amber-900 font-bold text-lg">
           Let me tell you sumthin'
