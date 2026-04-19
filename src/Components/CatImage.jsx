@@ -5,7 +5,7 @@ export const CatImage = () => {
     <img 
       src={catSuit} 
       alt="Cat in suit"
-      className="w-100 object-cover rotate-7" 
+      className=" w-50 lg:w-100 object-cover rotate-7" 
     />
   )
 }

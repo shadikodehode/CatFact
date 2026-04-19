@@ -12,7 +12,7 @@ export const LoadingSpinner = () => {
       <img 
         src={oiia} 
         alt="Loading"
-        className="w-24" 
+        className="w-15 lg:w-24" 
       />
     </div>
   );

@@ -5,7 +5,7 @@ export const CatFactTitle = () => {
     <img 
       src={CatFactClean} 
       alt="Cat title"
-      className="ml-40 w-xl object-cover" 
+      className=" w-xl object-cover" 
     />
   )
 }
